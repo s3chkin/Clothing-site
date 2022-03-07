@@ -30,3 +30,40 @@ body {
     display: block;
     width: 500px;
 } */
+
+#best {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: factcool, sans-serif;
+    text-align: center;
+    border-top: 300px inherit #326072;
+    /* border-color: green;
+    border-style: inherit;
+    border-width: 3px; */
+    margin-bottom: 25px;
+}
+
+.row {
+    margin: 0;
+}
+
+.card-body {
+    background-color: #cad6e7;
+    border-color: #123644;
+    border-style: groove;
+    border-width: 3px;
+}
+
+.card-body:hover {
+    background-color: rgba(213, 229, 243, 0.801);
+}
+
+.small {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.text-dark {
+    text-decoration: none;
+}
