@@ -52,7 +52,7 @@ body {
     background-color: #cad6e7;
     border-color: #123644;
     border-style: groove;
-    border-width: 3px;
+    border-width: 8px;
 }
 
 .card-body:hover {
