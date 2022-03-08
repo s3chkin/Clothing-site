@@ -42,6 +42,8 @@ body {
     border-style: inherit;
     border-width: 3px; */
     margin-bottom: 25px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .row {
@@ -52,7 +54,7 @@ body {
     background-color: #cad6e7;
     border-color: #123644;
     border-style: groove;
-    border-width: 8px;
+    border-width: 3px;
 }
 
 .card-body:hover {
@@ -66,4 +68,101 @@ body {
 
 .text-dark {
     text-decoration: none;
+}
+
+.discount {
+    width: 800px;
+    height: 100px;
+    /* background-color: #326072; */
+    margin-top: 5px;
+    margin-bottom: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-style: inset;
+    border-width: 2px;
+    border-color: #326072;
+}
+
+.discount:hover {
+    background-color: #d5e3eb;
+}
+
+.bi-bag-check-fill {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 835px) {
+    .discount {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .discount {
+        width: 250px;
+    }
+}
+
+.sections {
+    margin-top: 85px;
+}
+
+.img {
+    margin-left: 15px;
+    opacity: 0.9;
+}
+
+.img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgContainer1 {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    margin-top: 125px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .img {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .img {
+        width: 350px;
+    }
+    .centered {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .img {
+        width: 200px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .img {
+        width: 150px;
+        margin-left: 5px;
+    }
 }
