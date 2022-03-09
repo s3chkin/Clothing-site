@@ -1,6 +1,6 @@
 body {
     /* background-color: #f8d9af; */
-    background-color: #f4f7fb;
+    background-color: #ffffff;
 }
 
 * {
@@ -51,10 +51,10 @@ body {
 }
 
 .card-body {
-    background-color: #cad6e7;
+    background-color: #bcbcbd;
     border-color: #123644;
     border-style: groove;
-    border-width: 3px;
+    border-width: 1px;
 }
 
 .card-body:hover {
@@ -132,6 +132,43 @@ body {
     font-size: 25px;
 }
 
+.promotions img {
+    padding-top: 50px;
+}
+
+.responsiveSections {
+    display: none;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+.imgRespSections {
+    margin-top: 10px;
+}
+
+.promImg {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#responsiveImgContainer {
+    display: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.promImgResp {
+    padding-top: 5px;
+    width: 380px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1260px) {
+    .promImg {
+        width: 450px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .img {
         width: 450px;
@@ -145,11 +182,27 @@ body {
     .centered {
         margin-top: 0px;
     }
+    .promImg {
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 765px) {
     .img {
         width: 250px;
+    }
+    #responsiveImgContainer {
+        display: block;
+    }
+    #imgContainer {
+        display: none;
+    }
+    /* ============ */
+    #sectionsResponsiving {
+        display: none;
+    }
+    .responsiveSections {
+        display: block;
     }
 }
 
@@ -158,11 +211,20 @@ body {
         width: 200px;
         margin-left: 5px;
     }
+    .imgRespSections {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 450px) {
     .img {
         width: 150px;
         margin-left: 5px;
+    }
+    .promImgResp {
+        width: 300px;
+    }
+    .imgRespSections {
+        width: 300px;
     }
 }
