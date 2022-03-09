@@ -51,14 +51,14 @@ body {
 }
 
 .card-body {
-    background-color: #bcbcbd;
+    background-color: #f3f3f3;
     border-color: #123644;
     border-style: groove;
     border-width: 1px;
 }
 
 .card-body:hover {
-    background-color: rgba(213, 229, 243, 0.801);
+    background-color: rgb(231, 231, 231);
 }
 
 .small {
@@ -85,7 +85,7 @@ body {
 }
 
 .discount:hover {
-    background-color: #d5e3eb;
+    background-color: #edf1f3;
 }
 
 .bi-bag-check-fill {
