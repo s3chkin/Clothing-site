@@ -234,6 +234,26 @@ body {
 
 #manWindow {
     width: 1200px;
-    height: 800px;
+    /* height: 800px; */
     background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+#clothingImgSections {
+    width: 250px;
+    cursor: pointer;
+}
+
+.clothingImgSectionsDiv {
+    margin-left: 10px;
+}
+
+.manClothes {
+    width: 1200px;
+    height: 100px;
+    /* height: 800px; */
+    background-color: #ffffff;
+    /* display: flex; */
+    /* justify-content: space-around; */
 }
