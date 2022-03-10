@@ -257,3 +257,31 @@ body {
     /* display: flex; */
     /* justify-content: space-around; */
 }
+
+@media screen and (max-width: 1185px) {
+    #manWindow {
+        width: 1500px;
+        /* height: 800px; */
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+    }
+    #clothingImgSections {
+        width: 200px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    #manWindow {
+        width: 1000px;
+        /* height: 800px; */
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+    }
+    #clothingImgSections {
+        width: 150px;
+        cursor: pointer;
+    }
+}
