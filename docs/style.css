@@ -228,3 +228,12 @@ body {
         width: 300px;
     }
 }
+
+
+/* ==================man=========================== */
+
+#manWindow {
+    width: 1200px;
+    height: 800px;
+    background-color: #ffffff;
+}
