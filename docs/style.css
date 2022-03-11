@@ -245,6 +245,11 @@ body {
     cursor: pointer;
 }
 
+.clothingImgSectionsDiv:hover {
+    color: rgb(255, 196, 0);
+    transition: ease-in-out 0s;
+}
+
 .clothingImgSectionsDiv {
     margin-left: 10px;
 }
