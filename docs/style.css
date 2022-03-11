@@ -290,3 +290,32 @@ body {
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 745px) {
+    #manWindow {
+        margin-left: 250px;
+        margin-right: 250px;
+        /* height: 800px; */
+        /* background-color: #ffffff;
+        display: flex;
+        justify-content: space-around; */
+    }
+    #clothingImgSections {
+        width: 100px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #manWindow {
+        width: 500px;
+        /* height: 800px; */
+        /* background-color: #ffffff;
+        display: flex;
+        justify-content: space-around; */
+    }
+    #clothingImgSections {
+        width: 100px;
+        cursor: pointer;
+    }
+}
